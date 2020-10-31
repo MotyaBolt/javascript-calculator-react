@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#calculator {
+    height: 430px;
+    width: 350px;
+    background-color: rgb(131, 130, 130);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#alg-display {
+    background-color: rgb(171, 212, 245);
+    width: 300px;
+    min-height: 30px;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 21px;
+    padding-right: 7px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-height: 50px;
+    padding-top: 7px;
+    color: rgb(104, 41, 30)
+}
+#display {
+    min-height: 70px;
+    max-height: 90px;
+    width: 300px;
+    margin-top: 0px;
+    background-color: rgb(171, 212, 245);
+    overflow-wrap: break-word;
+    text-align: right;
+    word-wrap: break-word;
+    font-size: 30px;
+    padding-right: 7px;
+    padding-top: 7px;
+}
+#buttons {
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.number {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(131, 130, 130);
+    border-bottom: none;
+    background-color: rgb(255, 253, 253);
+    font-size: 20px;
+    outline: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.action {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid rgb(131, 130, 130);
+    border-top: none;
+    background-color: rgb(255, 253, 253);
+    font-size: 20px;
+    outline: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.number:hover {
+    background-color: rgb(238, 236, 236);
+}
+.action:hover {
+    background-color: rgb(238, 236, 236);
+}
+#clear {
+    background-color: rgb(255, 232, 228);
+    transition:  all 0.2s ease;
+    width: 150px;
+}
+#clear:hover {
+    background-color: rgb(236, 214, 209);
+}
+#equals {
+    width: 150px;
+    font-size: 23px;
+}
